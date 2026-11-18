@@ -19,6 +19,9 @@ gradle-app.setting
 !gradle-wrapper.jar
 local.properties
 
+# 掌造快照与本地工具产物：不进仓库
+.webnex-snapshots/
+
 # 签名证书与口令：正式证书不要进仓库（CI 用 GitHub Secrets，见 .github/workflows/build-apk.yml）
 *.jks
 keystore.properties
